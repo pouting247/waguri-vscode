@@ -1,0 +1,21 @@
+{
+  "name": "waguri",
+  "displayName": "Waguri",
+  "description": "The Fragrant Flower Blooms with Dignity in your VSCode Editor",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Waguri",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Waguri-color-theme.json"
+      }
+    ]
+  }
+}
