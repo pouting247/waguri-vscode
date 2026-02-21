@@ -3,7 +3,10 @@
     "type": "dark",
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "decorator:python": {
+        "class.builtin:python": {
+            "foreground": "#D6A6A6"
+        },
+        "class.decorator.builtin:python": {
             "foreground": "#b8a6d6"
         },
         "class.typeHint:python": {
@@ -26,8 +29,7 @@
         {
             "scope": [
                 "meta.attribute.python",
-                "support.function.builtin.python",
-                "constant.other.caps.python"
+                "support.function.builtin.python"
             ],
             "settings": {
                 "foreground": "#B8B0A9",
@@ -35,9 +37,7 @@
             }
         },
         {
-            "scope": [
-                "support.type.python"
-            ],
+            "scope": [],
             "settings": {
                 "foreground": "#787878",
                 "fontStyle": "bold"
@@ -76,7 +76,9 @@
         },
         {
             "scope": [
-                "entity.name.function.decorator.python"
+                "entity.name.function.decorator.python",
+                "variable.parameter.function-call.python",
+                "variable.parameter.function.language.python"
             ],
             "settings": {
                 "foreground": "#b8a6d6",
@@ -98,7 +100,8 @@
         },
         {
             "scope": [
-                "meta.function-call.generic.python"
+                "meta.function-call.generic.python",
+                "constant.other.caps.python"
             ],
             "settings": {
                 "foreground": "#D6A6A6",

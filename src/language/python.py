@@ -1,5 +1,8 @@
 semantic_token = {
-    "decorator:python": {
+    "class.builtin:python": {
+        "foreground": "#D6A6A6",
+    },
+    "class.decorator.builtin:python": {
         "foreground": "#b8a6d6",
     },
     "class.typeHint:python": {
@@ -24,12 +27,9 @@ semantic_token = {
 fg2 = [
     "meta.attribute.python",
     "support.function.builtin.python",
-    "constant.other.caps.python",
 ]
 
-fg3 = [
-    "support.type.python",
-]
+fg3 = []
 
 green = [
     "entity.name.type.class.python",
@@ -54,10 +54,13 @@ yellow = [
 
 purple = [
     "entity.name.function.decorator.python",
+    "variable.parameter.function-call.python",
+    "variable.parameter.function.language.python",
 ]
 
 red = [
     "meta.function-call.generic.python",
+    "constant.other.caps.python",
 ]
 
 orange = [
